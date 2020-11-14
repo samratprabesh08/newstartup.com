@@ -1,0 +1,49 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "sans-seriff";
+}
+body{
+	background-image: url(header.jpg);
+/* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+	color: #81adda;
+	size: 3rem ;
+	font-weight: 150%;
+}
+hr{
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+.buffer{
+	height: 13.9rem;
+
+}
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary{
+	background-color: #F05F44;
+	border-color: #F05F44;
+	border-width: 4px;
+}
+.btn-primary:hover{
+	background-color: darkblue;	
+	border-color: darkblue;
+
+}
+.btn-xl{
+	padding: 1rem 2rem;
+
+}
